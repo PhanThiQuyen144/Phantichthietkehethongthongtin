@@ -28,25 +28,23 @@
                             <!-- <a class="dropdown-item" href="#">Cập nhật thông tin độc giả</a> -->
                             <!-- <a class="dropdown-item" href="#">Tra cứu sách</a> -->
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="quanlymuontra.php" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quản lý mượn trả sách</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="quanlymuontra.php">Quản lý mượn trả sách</a>  
-                            <a class="dropdown-item" href="muonsach.php">Mượn sách</a>
-                            <a class="dropdown-item" href="trasach.php">Trả sách</a>
-                            <a class="dropdown-item" href="giahan.php">Gia hạn</a>
-                            <a class="dropdown-item" href="tracuusach.php">Tra cứu sách</a>
-                        </div>
+                    <li class="nav-item ">
+                         <a class="nav-link" href="quanlymuontra.php">Quản lý mượn trả sách <span class="sr-only">(current)</span></a>
+                        
                     </li>
+
+
+
+
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                    <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search"> -->
-                    <button class="btn btn-success my-2 my-sm-0" type="submit">Đăng xuất</button>
+                  <a href="dangnhap.php">  <button class="btn btn-success my-2 my-sm-0" type="submit">Đăng xuất</button></a>
                 </form>
             </div>
         </nav>
-        <div class="row">
-            <div class="col-md-12">
+        <div class="row mt-2 pt-3">
+            <div class="col-md-12 " >
                 <table class="table">
                     <thead>
                         <tr>
@@ -62,7 +60,7 @@
                     <tbody>
                         <tr>
                             <td scope="row">1</td>
-                            <td><img src="../CSE485_1851160588_PhanThiQuyen/3.PROJECT/images/CSE logo.jpg" alt=""></td>
+                            <td><img src="../Phantichthietkehethongthongtin/images/anhthe1.jpg" alt=""></td>
                             <td>Nguyễn Văn A</td>
                             <td>12/12/2000</td>
                             <td>Nam</td>

@@ -23,27 +23,21 @@
                     <li class="nav-item ">
                          <a class="nav-link" href="giaodienchinh.php">Thông tin độc giả <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="quanlymuontra.php" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quản lý mượn trả sách</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="quanlymuontra.php">Quản lý mượn trả sách</a> 
-                            <a class="dropdown-item" href="muonsach.php">Mượn sách</a>
-                            <a class="dropdown-item" href="trasach.php">Trả sách</a>
-                            <a class="dropdown-item" href="giahan.php">Gia hạn</a>
-                            <a class="dropdown-item" href="tracuusach.php">Tra cứu sách</a>
-                        </div>
+                     <li class="nav-item active">
+                         <a class="nav-link" href="quanlymuontra.php">Quản lý mượn trả sách<span class="sr-only">(current)</span></a>
                     </li>
+                   
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                    <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search"> -->
-                    <button class="btn btn-success my-2 my-sm-0" type="submit">Đăng xuất</button>
+                    <a href="dangnhap.php"><button class="btn btn-success my-2 my-sm-0" type="button">Đăng xuất</button></a>
                 </form>
             </div>
         </nav>
         <div class="row">
             <div class="col-md-6">
                 <p><b> Sách mượn </b></p>
-                <table class="table">
+                <table class="table table-striped">
                     <thead>
                         <tr>
                             <!-- <th>Mã độc giả</th> -->
@@ -77,7 +71,7 @@
             </div>
             <div class="col-md-6">
                 <p><b>Sách trả </b></p>
-                <table class="table">
+                <table class="table table-striped">
                     <thead>
                         <tr>
                             <!-- <th>Mã độc giả</th> -->
@@ -109,9 +103,9 @@
                     </tbody>
                 </table>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-4 ">
                 <p><b>Số lượng</b></p>
-                <table class="table">
+                <table class="table table-striped">
                     <thead>
                         <tr>
                             <!-- <th>Mã độc giả</th> -->

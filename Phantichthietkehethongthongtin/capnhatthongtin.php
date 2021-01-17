@@ -53,14 +53,14 @@
                   <input type="text" name="" id="" class="form-control" placeholder="1" aria-describedby="helpId">
                   <!-- <small id="helpId" class="text-muted">Help text</small> -->
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <label for="">Hình ảnh</label>
                   <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
-                  <!-- <small id="helpId" class="text-muted">Help text</small> -->
-                </div>
+                  <small id="helpId" class="text-muted">Help text</small>
+                </div> -->
                 <div class="form-group">
                   <label for="">Họ tên</label>
-                  <input type="text" name="" id="" class="form-control" placeholder="Nguyễn Văn A" aria-describedby="helpId">
+                  <input type="text" name="" id="" class="form-control" placeholder="Nguyễn Việt Anh" aria-describedby="helpId">
                   <!-- <small id="helpId" class="text-muted">Help text</small> -->
                 </div>
                 <div class="form-group">
@@ -86,7 +86,7 @@
                   <!-- <small id="helpId" class="text-muted">Help text</small> -->
                 </div>
                 <button type="submit" class="btn btn-primary">Cập nhật</button>
-                            
+                <a href="thongtindocgia.php">  <button type="submit" class="btn btn-primary">Quay lại</button></a>
             </div>
         </div>
       </div>
